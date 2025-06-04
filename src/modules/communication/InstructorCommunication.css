@@ -1,0 +1,105 @@
+.communication-module {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.forum-section, .notifications-section {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.forum-section h2, .notifications-section h2 {
+  margin-top: 0;
+  color: #393e46;
+}
+
+.forum-posts {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.forum-post {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+.forum-post p {
+  margin: 0;
+  color: #333;
+}
+
+.forum-post span {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.new-message {
+  display: flex;
+  gap: 10px;
+}
+
+.new-message input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.new-message button {
+  padding: 8px 16px;
+  background-color: #393e46;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.new-message button:hover {
+  background-color: #929aab;
+}
+
+.notifications-list {
+  list-style: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.notification {
+  border-bottom: 1px solid #eee;
+  padding: 8px 10px;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.notification span {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.high-priority {
+  font-weight: bold;
+  color: #b30000;
+}
+
+.notification.assignment-due {
+  background-color: #fff3cd;
+  border-left: 5px solid #ffc107;
+}
+
+.notification.announcement {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+}
+
+.notification.new-course {
+  background-color: #d1ecf1;
+  border-left: 5px solid #17a2b8;
+}

@@ -1,0 +1,95 @@
+.communication-module {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .forum-section, .notifications-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .forum-section h2, .notifications-section h2 {
+    margin-top: 0;
+  }
+  
+  .forum-posts {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .forum-post {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+  }
+  
+  .forum-post p {
+    margin: 0;
+  }
+  
+  .forum-post span {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .new-message {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .new-message input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .new-message button {
+    padding: 5px 10px;
+  }
+  
+  .notifications-list {
+    list-style: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .notification {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+  }
+  
+  .notification p {
+    margin: 0;
+  }
+  
+  .notification span {
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Emphasize high priority notifications */
+.high-priority {
+  font-weight: bold;
+  color: #b30000; /* dark red for urgency */
+}
+
+/* Better visibility for types */
+.notification.assignment-due {
+  background-color: #fff3cd;
+  border-left: 5px solid #ffc107; /* yellow border */
+}
+
+.notification.announcement {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745; /* green border */
+}
+
+.notification.new-course {
+  background-color: #d1ecf1;
+  border-left: 5px solid #17a2b8; /* blue border */
+}

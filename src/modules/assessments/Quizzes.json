@@ -1,0 +1,795 @@
+[
+    {
+        "courseId": "C001",
+        "courseName": "Mastering Docker: From Beginner to Expert",
+        "quizzes": [
+          {
+            "questionId": "docker-q1",
+            "question": "What is Docker?",
+            "options": ["A containerization platform", "A programming language", "A database", "A web server"],
+            "correctAnswer": "A containerization platform"
+          },
+          {
+            "questionId": "docker-q2",
+            "question": "Which command is used to build a Docker image?",
+            "options": ["docker build", "docker run", "docker create", "docker image"],
+            "correctAnswer": "docker build"
+          },
+          {
+            "questionId": "docker-q3",
+            "question": "What is a Docker container?",
+            "options": ["A lightweight virtual machine", "A database", "A programming language", "A web server"],
+            "correctAnswer": "A lightweight virtual machine"
+          },
+          {
+            "questionId": "docker-q4",
+            "question": "Which file is used to define a Docker image?",
+            "options": ["Dockerfile", "DockerImage", "DockerCompose", "DockerConfig"],
+            "correctAnswer": "Dockerfile"
+          },
+          {
+            "questionId": "docker-q5",
+            "question": "What is the purpose of Docker Compose?",
+            "options": ["To manage multi-container applications", "To build Docker images", "To run a single container", "To monitor Docker containers"],
+            "correctAnswer": "To manage multi-container applications"
+          },
+          {
+            "questionId": "docker-q6",
+            "question": "Which command is used to list all running containers?",
+            "options": ["docker ps", "docker list", "docker containers", "docker show"],
+            "correctAnswer": "docker ps"
+          },
+          {
+            "questionId": "docker-q7",
+            "question": "What is the default network driver in Docker?",
+            "options": ["bridge", "host", "overlay", "none"],
+            "correctAnswer": "bridge"
+          },
+          {
+            "questionId": "docker-q8",
+            "question": "Which command is used to stop a running container?",
+            "options": ["docker stop", "docker kill", "docker pause", "docker remove"],
+            "correctAnswer": "docker stop"
+          },
+          {
+            "questionId": "docker-q9",
+            "question": "What is the purpose of Docker Hub?",
+            "options": ["To store and share Docker images", "To monitor Docker containers", "To build Docker images", "To manage Docker networks"],
+            "correctAnswer": "To store and share Docker images"
+          },
+          {
+            "questionId": "docker-q10",
+            "question": "Which command is used to remove a Docker container?",
+            "options": ["docker rm", "docker delete", "docker remove", "docker stop"],
+            "correctAnswer": "docker rm"
+          }
+        ]
+      },
+      {
+        "courseId": "C002",
+        "courseName": "Mastering Next.js: Full Stack Development",
+        "quizzes": [
+          {
+            "questionId": "nextjs-q1",
+            "question": "What is Next.js?",
+            "options": ["A React framework", "A database", "A programming language", "A CSS framework"],
+            "correctAnswer": "A React framework"
+          },
+          {
+            "questionId": "nextjs-q2",
+            "question": "Which command is used to create a new Next.js app?",
+            "options": ["npx create-next-app", "npm init next-app", "next create-app", "npm create-next"],
+            "correctAnswer": "npx create-next-app"
+          },
+          {
+            "questionId": "nextjs-q3",
+            "question": "What is the default file for routing in Next.js?",
+            "options": ["pages/index.js", "routes/index.js", "src/index.js", "app/index.js"],
+            "correctAnswer": "pages/index.js"
+          },
+          {
+            "questionId": "nextjs-q4",
+            "question": "What is the purpose of getStaticProps in Next.js?",
+            "options": ["To fetch data at build time", "To fetch data at runtime", "To handle routing", "To manage state"],
+            "correctAnswer": "To fetch data at build time"
+          },
+          {
+            "questionId": "nextjs-q5",
+            "question": "Which file is used to customize the app layout in Next.js?",
+            "options": ["_app.js", "_document.js", "layout.js", "index.js"],
+            "correctAnswer": "_app.js"
+          },
+          {
+            "questionId": "nextjs-q6",
+            "question": "What is the purpose of getServerSideProps in Next.js?",
+            "options": ["To fetch data at runtime", "To fetch data at build time", "To handle routing", "To manage state"],
+            "correctAnswer": "To fetch data at runtime"
+          },
+          {
+            "questionId": "nextjs-q7",
+            "question": "Which command is used to start a Next.js development server?",
+            "options": ["npm run dev", "npm start", "next start", "next dev"],
+            "correctAnswer": "npm run dev"
+          },
+          {
+            "questionId": "nextjs-q8",
+            "question": "What is the purpose of the Link component in Next.js?",
+            "options": ["To handle client-side navigation", "To fetch data", "To manage state", "To create a layout"],
+            "correctAnswer": "To handle client-side navigation"
+          },
+          {
+            "questionId": "nextjs-q9",
+            "question": "What is the purpose of API routes in Next.js?",
+            "options": ["To create serverless functions", "To manage state", "To handle routing", "To fetch data"],
+            "correctAnswer": "To create serverless functions"
+          },
+          {
+            "questionId": "nextjs-q10",
+            "question": "Which command is used to build a Next.js app for production?",
+            "options": ["npm run build", "next build", "npm build", "next run build"],
+            "correctAnswer": "npm run build"
+          }
+        ]
+      },
+    {
+      "courseId": "C003",
+      "courseName": "Master HTML: The Complete Guide",
+      "quizzes": [
+        {
+          "questionId": "html-q1",
+          "question": "What does HTML stand for?",
+          "options": ["HyperText Markup Language", "HyperText Machine Language", "HyperTool Markup Language", "HyperText Main Language"],
+          "correctAnswer": "HyperText Markup Language"
+        },
+        {
+          "questionId": "html-q2",
+          "question": "Which tag is used to create a hyperlink in HTML?",
+          "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+          "correctAnswer": "<a>"
+        },
+        {
+          "questionId": "html-q3",
+          "question": "Which tag is used to define a table in HTML?",
+          "options": ["<table>", "<tr>", "<td>", "<tab>"],
+          "correctAnswer": "<table>"
+        },
+        {
+          "questionId": "html-q4",
+          "question": "What is the purpose of the <head> tag in HTML?",
+          "options": ["To define metadata and links to external resources", "To display the main content", "To create a header", "To define the footer"],
+          "correctAnswer": "To define metadata and links to external resources"
+        },
+        {
+          "questionId": "html-q5",
+          "question": "Which attribute is used to specify an image source in HTML?",
+          "options": ["src", "href", "alt", "link"],
+          "correctAnswer": "src"
+        },
+        {
+          "questionId": "html-q6",
+          "question": "What is the correct way to create an ordered list in HTML?",
+          "options": ["<ol>", "<ul>", "<li>", "<list>"],
+          "correctAnswer": "<ol>"
+        },
+        {
+          "questionId": "html-q7",
+          "question": "Which tag is used to create a line break in HTML?",
+          "options": ["<br>", "<lb>", "<break>", "<line>"],
+          "correctAnswer": "<br>"
+        },
+        {
+          "questionId": "html-q8",
+          "question": "What is the purpose of the <title> tag in HTML?",
+          "options": ["To set the title of the document", "To create a heading", "To define a paragraph", "To link to external resources"],
+          "correctAnswer": "To set the title of the document"
+        },
+        {
+          "questionId": "html-q9",
+          "question": "Which tag is used to create a form in HTML?",
+          "options": ["<form>", "<input>", "<textarea>", "<fieldset>"],
+          "correctAnswer": "<form>"
+        },
+        {
+          "questionId": "html-q10",
+          "question": "What is the purpose of the <meta> tag in HTML?",
+          "options": ["To provide metadata about the document", "To create a hyperlink", "To define a table", "To display an image"],
+          "correctAnswer": "To provide metadata about the document"
+        }
+      ]
+    },
+    {
+      "courseId": "C004",
+      "courseName": "JavaScript Basics for Beginners",
+      "quizzes": [
+        {
+          "questionId": "js-q1",
+          "question": "What is JavaScript?",
+          "options": ["A programming language", "A database", "A web server", "A CSS framework"],
+          "correctAnswer": "A programming language"
+        },
+        {
+          "questionId": "js-q2",
+          "question": "Which company developed JavaScript?",
+          "options": ["Netscape", "Microsoft", "Google", "Facebook"],
+          "correctAnswer": "Netscape"
+        },
+        {
+          "questionId": "js-q3",
+          "question": "What is the correct syntax to declare a variable in JavaScript?",
+          "options": ["var x = 10;", "int x = 10;", "let x = 10;", "Both var x = 10; and let x = 10;"],
+          "correctAnswer": "Both var x = 10; and let x = 10;"
+        },
+        {
+          "questionId": "js-q4",
+          "question": "Which method is used to write content to the browser's console?",
+          "options": ["console.log()", "console.write()", "console.output()", "console.print()"],
+          "correctAnswer": "console.log()"
+        },
+        {
+          "questionId": "js-q5",
+          "question": "What is the purpose of the 'this' keyword in JavaScript?",
+          "options": ["To refer to the current object", "To declare a variable", "To create a function", "To define a class"],
+          "correctAnswer": "To refer to the current object"
+        },
+        {
+          "questionId": "js-q6",
+          "question": "Which symbol is used for comments in JavaScript?",
+          "options": ["//", "/* */", "#", "// and /* */"],
+          "correctAnswer": "// and /* */"
+        },
+        {
+          "questionId": "js-q7",
+          "question": "What is the output of 'typeof null' in JavaScript?",
+          "options": ["object", "null", "undefined", "string"],
+          "correctAnswer": "object"
+        },
+        {
+          "questionId": "js-q8",
+          "question": "Which method is used to parse a string to an integer in JavaScript?",
+          "options": ["parseInt()", "parseFloat()", "Number()", "String()"],
+          "correctAnswer": "parseInt()"
+        },
+        {
+          "questionId": "js-q9",
+          "question": "What is the purpose of the 'map()' method in JavaScript?",
+          "options": ["To create a new array by applying a function to each element", "To filter elements in an array", "To sort an array", "To find an element in an array"],
+          "correctAnswer": "To create a new array by applying a function to each element"
+        },
+        {
+          "questionId": "js-q10",
+          "question": "What is the purpose of the 'async' keyword in JavaScript?",
+          "options": ["To define an asynchronous function", "To declare a variable", "To create a class", "To handle errors"],
+          "correctAnswer": "To define an asynchronous function"
+        }
+      ]
+    },
+    {
+        "courseId": "C005",
+  "courseName": "Advanced CSS Techniques",
+  "quizzes": [
+    {
+      "questionId": "css-q1",
+      "question": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+      "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+      "questionId": "css-q2",
+      "question": "Which property is used to change the background color in CSS?",
+      "options": ["background-color", "color", "bgcolor", "background"],
+      "correctAnswer": "background-color"
+    },
+    {
+      "questionId": "css-q3",
+      "question": "Which CSS property is used to change the text color of an element?",
+      "options": ["color", "text-color", "font-color", "foreground-color"],
+      "correctAnswer": "color"
+    },
+    {
+      "questionId": "css-q4",
+      "question": "Which CSS property is used to control the spacing between lines of text?",
+      "options": ["line-height", "letter-spacing", "text-spacing", "spacing"],
+      "correctAnswer": "line-height"
+    },
+    {
+      "questionId": "css-q5",
+      "question": "Which CSS property is used to make a website responsive?",
+      "options": ["media queries", "flexbox", "grid", "position"],
+      "correctAnswer": "media queries"
+    },
+    {
+      "questionId": "css-q6",
+      "question": "Which value of the `position` property is used to position an element relative to its nearest positioned ancestor?",
+      "options": ["relative", "absolute", "fixed", "static"],
+      "correctAnswer": "absolute"
+    },
+    {
+      "questionId": "css-q7",
+      "question": "Which CSS property is used to create animations?",
+      "options": ["animation", "transition", "keyframes", "transform"],
+      "correctAnswer": "animation"
+    },
+    {
+      "questionId": "css-q8",
+      "question": "Which CSS property is used to apply a shadow to text?",
+      "options": ["text-shadow", "box-shadow", "shadow", "font-shadow"],
+      "correctAnswer": "text-shadow"
+    },
+    {
+      "questionId": "css-q9",
+      "question": "Which CSS property is used to control the stacking order of elements?",
+      "options": ["z-index", "stack-order", "order", "position"],
+      "correctAnswer": "z-index"
+    },
+    {
+      "questionId": "css-q10",
+      "question": "Which CSS property is used to change the shape of an element?",
+      "options": ["border-radius", "clip-path", "transform", "shape"],
+      "correctAnswer": "border-radius"
+    }
+    ]
+    },
+    {
+      "courseId": "C006",
+      "courseName": "React for Beginners",
+      "quizzes": [
+        {
+          "questionId": "react-q1",
+          "question": "What is React?",
+          "options": ["A library for building user interfaces", "A database", "A programming language", "A web server"],
+          "correctAnswer": "A library for building user interfaces"
+        },
+        {
+          "questionId": "react-q2",
+          "question": "Who developed React?",
+          "options": ["Google", "Facebook", "Microsoft", "Twitter"],
+          "correctAnswer": "Facebook"
+        },
+        {
+          "questionId": "react-q3",
+          "question": "What is JSX?",
+          "options": ["A syntax extension for JavaScript", "A type of database", "A CSS framework", "A programming language"],
+          "correctAnswer": "A syntax extension for JavaScript"
+        },
+        {
+          "questionId": "react-q4",
+          "question": "What is the virtual DOM?",
+          "options": ["A copy of the real DOM", "A database", "A programming language", "A server"],
+          "correctAnswer": "A copy of the real DOM"
+        },
+        {
+          "questionId": "react-q5",
+          "question": "What is a React component?",
+          "options": ["A reusable piece of UI", "A database", "A server", "A programming language"],
+          "correctAnswer": "A reusable piece of UI"
+        },
+        {
+          "questionId": "react-q6",
+          "question": "What is the use of useState in React?",
+          "options": ["To manage state in a functional component", "To fetch data", "To handle events", "To create a class component"],
+          "correctAnswer": "To manage state in a functional component"
+        },
+        {
+          "questionId": "react-q7",
+          "question": "What is the purpose of props in React?",
+          "options": ["To pass data to components", "To manage state", "To handle events", "To create a class component"],
+          "correctAnswer": "To pass data to components"
+        },
+        {
+          "questionId": "react-q8",
+          "question": "What is React Router used for?",
+          "options": ["To handle routing in a React application", "To manage state", "To fetch data", "To create animations"],
+          "correctAnswer": "To handle routing in a React application"
+        },
+        {
+          "questionId": "react-q9",
+          "question": "What is the use of useEffect in React?",
+          "options": ["To handle side effects in a functional component", "To manage state", "To fetch data", "To create a class component"],
+          "correctAnswer": "To handle side effects in a functional component"
+        },
+        {
+          "questionId": "react-q10",
+          "question": "What is the purpose of keys in React?",
+          "options": ["To identify elements in a list", "To manage state", "To handle events", "To create a class component"],
+          "correctAnswer": "To identify elements in a list"
+        }
+      ]
+    },
+    {
+        "courseId": "C007",
+        "courseName": "Python for Data Science",
+        "quizzes": [
+          {
+            "questionId": "python-q1",
+            "question": "What is Python primarily used for in data science?",
+            "options": ["Data analysis", "Web development", "Game development", "Mobile app development"],
+            "correctAnswer": "Data analysis"
+          },
+          {
+            "questionId": "python-q2",
+            "question": "Which library is commonly used for data manipulation in Python?",
+            "options": ["Pandas", "NumPy", "Matplotlib", "Scikit-learn"],
+            "correctAnswer": "Pandas"
+          },
+          {
+            "questionId": "python-q3",
+            "question": "What does the 'head()' function in Pandas do?",
+            "options": ["Displays the first few rows of a DataFrame", "Displays the last few rows of a DataFrame", "Sorts the DataFrame", "Deletes rows from a DataFrame"],
+            "correctAnswer": "Displays the first few rows of a DataFrame"
+          },
+          {
+            "questionId": "python-q4",
+            "question": "Which library is used for numerical computations in Python?",
+            "options": ["NumPy", "Pandas", "Matplotlib", "Seaborn"],
+            "correctAnswer": "NumPy"
+          },
+          {
+            "questionId": "python-q5",
+            "question": "What is the purpose of Matplotlib in Python?",
+            "options": ["Data visualization", "Data manipulation", "Machine learning", "Web scraping"],
+            "correctAnswer": "Data visualization"
+          },
+          {
+            "questionId": "python-q6",
+            "question": "Which Python library is used for machine learning?",
+            "options": ["Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+            "correctAnswer": "Scikit-learn"
+          },
+          {
+            "questionId": "python-q7",
+            "question": "What is the file extension for Python scripts?",
+            "options": [".py", ".python", ".pyt", ".txt"],
+            "correctAnswer": ".py"
+          },
+          {
+            "questionId": "python-q8",
+            "question": "Which function is used to read a CSV file in Pandas?",
+            "options": ["read_csv()", "read_file()", "load_csv()", "import_csv()"],
+            "correctAnswer": "read_csv()"
+          },
+          {
+            "questionId": "python-q9",
+            "question": "What is the purpose of the 'groupby()' function in Pandas?",
+            "options": ["To group data by a specific column", "To sort data", "To merge DataFrames", "To filter data"],
+            "correctAnswer": "To group data by a specific column"
+          },
+          {
+            "questionId": "python-q10",
+            "question": "Which library is used for statistical data visualization in Python?",
+            "options": ["Seaborn", "Matplotlib", "NumPy", "Pandas"],
+            "correctAnswer": "Seaborn"
+          }
+        ]
+      },
+      {
+        "courseId": "C008",
+        "courseName": "Machine Learning with TensorFlow",
+        "quizzes": [
+          {
+            "questionId": "ml-q1",
+            "question": "What is TensorFlow?",
+            "options": ["A machine learning framework", "A database", "A programming language", "A web server"],
+            "correctAnswer": "A machine learning framework"
+          },
+          {
+            "questionId": "ml-q2",
+            "question": "Which company developed TensorFlow?",
+            "options": ["Google", "Facebook", "Microsoft", "Amazon"],
+            "correctAnswer": "Google"
+          },
+          {
+            "questionId": "ml-q3",
+            "question": "What is a tensor in TensorFlow?",
+            "options": ["A multi-dimensional array", "A single-dimensional array", "A database table", "A machine learning model"],
+            "correctAnswer": "A multi-dimensional array"
+          },
+          {
+            "questionId": "ml-q4",
+            "question": "Which API is used for building neural networks in TensorFlow?",
+            "options": ["Keras", "NumPy", "Pandas", "Matplotlib"],
+            "correctAnswer": "Keras"
+          },
+          {
+            "questionId": "ml-q5",
+            "question": "What is the purpose of the 'fit()' method in TensorFlow?",
+            "options": ["To train a model", "To evaluate a model", "To save a model", "To load a model"],
+            "correctAnswer": "To train a model"
+          },
+          {
+            "questionId": "ml-q6",
+            "question": "Which function is used to create a sequential model in TensorFlow?",
+            "options": ["Sequential()", "Model()", "CreateModel()", "BuildModel()"],
+            "correctAnswer": "Sequential()"
+          },
+          {
+            "questionId": "ml-q7",
+            "question": "What is the purpose of an activation function in a neural network?",
+            "options": ["To introduce non-linearity", "To initialize weights", "To normalize data", "To reduce overfitting"],
+            "correctAnswer": "To introduce non-linearity"
+          },
+          {
+            "questionId": "ml-q8",
+            "question": "Which optimizer is commonly used in TensorFlow?",
+            "options": ["Adam", "SGD", "RMSprop", "All of the above"],
+            "correctAnswer": "All of the above"
+          },
+          {
+            "questionId": "ml-q9",
+            "question": "What is the purpose of the 'evaluate()' method in TensorFlow?",
+            "options": ["To evaluate a model's performance", "To train a model", "To save a model", "To load a model"],
+            "correctAnswer": "To evaluate a model's performance"
+          },
+          {
+            "questionId": "ml-q10",
+            "question": "Which layer is used for regularization in TensorFlow?",
+            "options": ["Dropout", "Dense", "Conv2D", "Flatten"],
+            "correctAnswer": "Dropout"
+          }
+        ]
+      },
+      {
+        "courseId": "C009",
+        "courseName": "Introduction to Cybersecurity",
+        "quizzes": [
+          {
+            "questionId": "cyber-q1",
+            "question": "What is cybersecurity?",
+            "options": ["Protecting systems from cyber threats", "Developing software", "Managing databases", "Building networks"],
+            "correctAnswer": "Protecting systems from cyber threats"
+          },
+          {
+            "questionId": "cyber-q2",
+            "question": "What does a firewall do?",
+            "options": ["Blocks unauthorized access", "Manages databases", "Encrypts data", "Monitors user activity"],
+            "correctAnswer": "Blocks unauthorized access"
+          },
+          {
+            "questionId": "cyber-q3",
+            "question": "What is phishing?",
+            "options": ["A cyber attack to steal sensitive information", "A type of malware", "A network protocol", "A data encryption method"],
+            "correctAnswer": "A cyber attack to steal sensitive information"
+          },
+          {
+            "questionId": "cyber-q4",
+            "question": "What is the purpose of encryption?",
+            "options": ["To secure data by converting it into unreadable format", "To delete data", "To compress data", "To analyze data"],
+            "correctAnswer": "To secure data by converting it into unreadable format"
+          },
+          {
+            "questionId": "cyber-q5",
+            "question": "What is a VPN?",
+            "options": ["Virtual Private Network", "Virtual Public Network", "Verified Private Network", "Verified Public Network"],
+            "correctAnswer": "Virtual Private Network"
+          },
+          {
+            "questionId": "cyber-q6",
+            "question": "What is malware?",
+            "options": ["Malicious software", "A type of firewall", "A network protocol", "A data encryption method"],
+            "correctAnswer": "Malicious software"
+          },
+          {
+            "questionId": "cyber-q7",
+            "question": "What is the purpose of two-factor authentication?",
+            "options": ["To add an extra layer of security", "To encrypt data", "To compress data", "To analyze data"],
+            "correctAnswer": "To add an extra layer of security"
+          },
+          {
+            "questionId": "cyber-q8",
+            "question": "What is ransomware?",
+            "options": ["Malware that demands payment to unlock data", "A type of firewall", "A network protocol", "A data encryption method"],
+            "correctAnswer": "Malware that demands payment to unlock data"
+          },
+          {
+            "questionId": "cyber-q9",
+            "question": "What is the purpose of penetration testing?",
+            "options": ["To identify vulnerabilities in a system", "To encrypt data", "To compress data", "To analyze data"],
+            "correctAnswer": "To identify vulnerabilities in a system"
+          },
+          {
+            "questionId": "cyber-q10",
+            "question": "What is social engineering in cybersecurity?",
+            "options": ["Manipulating people to gain unauthorized access", "Encrypting data", "Analyzing data", "Building networks"],
+            "correctAnswer": "Manipulating people to gain unauthorized access"
+          }
+        ]
+      },
+        {
+            "courseId": "C010",
+            "courseName": "Full Stack Development with MERN",
+            "quizzes": [
+            {
+                "questionId": "mern-q1",
+                "question": "What does MERN stand for?",
+                "options": ["MongoDB, Express.js, React, Node.js", "MySQL, Express.js, React, Node.js", "MongoDB, Express.js, Ruby, Node.js", "MySQL, Express.js, Ruby, Node.js"],
+                "correctAnswer": "MongoDB, Express.js, React, Node.js"
+            },
+            {
+                "questionId": "mern-q2",
+                "question": "Which library is used for building user interfaces in MERN?",
+                "options": ["React", "Angular", "Vue", "jQuery"],
+                "correctAnswer": "React"
+            },
+            {
+                "questionId": "mern-q3",
+                "question": "What is the purpose of Express.js in MERN?",
+                "options": ["To build web applications and APIs", "To manage databases", "To handle user authentication", "To create animations"],
+                "correctAnswer": "To build web applications and APIs"
+            },
+            {
+                "questionId": "mern-q4",
+                "question": "Which database is used in MERN?",
+                "options": ["MongoDB", "MySQL", "PostgreSQL", "SQLite"],
+                "correctAnswer": "MongoDB"
+            },
+            {
+                "questionId": "mern-q5",
+                "question": "What is the purpose of Node.js in MERN?",
+                "options": ["To run JavaScript on the server-side", "To manage databases", "To handle user authentication", "To create animations"],
+                "correctAnswer": "To run JavaScript on the server-side"
+            },
+            {
+                "questionId": "mern-q6",
+                "question": "Which command is used to create a new React app?",
+                "options": ["npx create-react-app", "npm init react-app", "create-react-app", "react-create-app"],
+                "correctAnswer": "npx create-react-app"
+            },
+            {
+            "questionId": "mern-q7",
+            "question": "What is the purpose of Redux in MERN?",
+            "options": ["State management", "Routing", "Database management", "API handling"],
+            "correctAnswer": "State management"
+            },
+            {
+            "questionId": "mern-q8",
+            "question": "Which command is used to start a Node.js server?",
+            "options": ["node server.js", "npm start", "node start", "server start"],
+            "correctAnswer": "node server.js"
+            },
+            {
+            "questionId": "mern-q9",
+            "question": "What is the purpose of Mongoose in MERN?",
+            "options": ["Object Data Modeling (ODM) for MongoDB", "State management", "Routing", "API handling"],
+            "correctAnswer": "Object Data Modeling (ODM) for MongoDB"
+            },
+            {
+            "questionId": "mern-q10",
+            "question": "What is the purpose of the useEffect hook in React?",
+            "options": ["To handle side effects in functional components", "To manage state", "To create class components", "To handle routing"],
+            "correctAnswer": "To handle side effects in functional components"
+            }
+        ]  
+    },
+    {
+        "courseId": "c011",
+        "courseName": "Building RESTful APIs with Node.js",
+        "quizzes": [
+          {
+            "questionId": "nodejs-q1",
+            "question": "What is Node.js?",
+            "options": ["A JavaScript runtime", "A database", "A programming language", "A web server"],
+            "correctAnswer": "A JavaScript runtime"
+          },
+          {
+            "questionId": "nodejs-q2",
+            "question": "Which module is used to create a server in Node.js?",
+            "options": ["http", "fs", "path", "os"],
+            "correctAnswer": "http"
+          },
+          {
+            "questionId": "nodejs-q3",
+            "question": "Which command is used to initialize a Node.js project?",
+            "options": ["npm init", "node init", "npm start", "node start"],
+            "correctAnswer": "npm init"
+          },
+          {
+            "questionId": "nodejs-q4",
+            "question": "What is Express.js?",
+            "options": ["A web application framework for Node.js", "A database", "A programming language", "A CSS framework"],
+            "correctAnswer": "A web application framework for Node.js"
+          },
+          {
+            "questionId": "nodejs-q5",
+            "question": "Which method is used to handle GET requests in Express?",
+            "options": ["app.get()", "app.post()", "app.put()", "app.delete()"],
+            "correctAnswer": "app.get()"
+          },
+          {
+            "questionId": "nodejs-q6",
+            "question": "What is middleware in Express?",
+            "options": ["Functions that execute during request processing", "A database", "A programming language", "A server"],
+            "correctAnswer": "Functions that execute during request processing"
+          },
+          {
+            "questionId": "nodejs-q7",
+            "question": "Which HTTP status code indicates success?",
+            "options": ["200", "404", "500", "403"],
+            "correctAnswer": "200"
+          },
+          {
+            "questionId": "nodejs-q8",
+            "question": "Which package is used to manage environment variables in Node.js?",
+            "options": ["dotenv", "express", "mongoose", "cors"],
+            "correctAnswer": "dotenv"
+          },
+          {
+            "questionId": "nodejs-q9",
+            "question": "What is the purpose of the 'res.send()' method in Express?",
+            "options": ["To send a response to the client", "To handle errors", "To parse JSON", "To create a server"],
+            "correctAnswer": "To send a response to the client"
+          },
+          {
+            "questionId": "nodejs-q10",
+            "question": "Which database is commonly used with Node.js for RESTful APIs?",
+            "options": ["MongoDB", "MySQL", "PostgreSQL", "SQLite"],
+            "correctAnswer": "MongoDB"
+          }
+        ]
+      },
+      {
+        "courseId": "c012",
+        "courseName": "UI/UX Design Fundamentals",
+        "quizzes": [
+          {
+            "questionId": "uiux-q1",
+            "question": "What does UI stand for?",
+            "options": ["User Interface", "User Interaction", "User Integration", "User Innovation"],
+            "correctAnswer": "User Interface"
+          },
+          {
+            "questionId": "uiux-q2",
+            "question": "What does UX stand for?",
+            "options": ["User Experience", "User Execution", "User Extension", "User Exploration"],
+            "correctAnswer": "User Experience"
+          },
+          {
+            "questionId": "uiux-q3",
+            "question": "Which tool is commonly used for creating wireframes?",
+            "options": ["Figma", "Photoshop", "Excel", "Word"],
+            "correctAnswer": "Figma"
+          },
+          {
+            "questionId": "uiux-q4",
+            "question": "What is the purpose of a wireframe?",
+            "options": ["To outline the structure of a design", "To add colors to a design", "To write code for a design", "To test a design"],
+            "correctAnswer": "To outline the structure of a design"
+          },
+          {
+            "questionId": "uiux-q5",
+            "question": "What is a prototype in UI/UX design?",
+            "options": ["A working model of a design", "A final product", "A database", "A programming language"],
+            "correctAnswer": "A working model of a design"
+          },
+          {
+            "questionId": "uiux-q6",
+            "question": "Which principle is important for good UX design?",
+            "options": ["Consistency", "Complexity", "Ambiguity", "Randomness"],
+            "correctAnswer": "Consistency"
+          },
+          {
+            "questionId": "uiux-q7",
+            "question": "What is the purpose of usability testing?",
+            "options": ["To evaluate how easy a design is to use", "To write code for a design", "To create wireframes", "To add colors to a design"],
+            "correctAnswer": "To evaluate how easy a design is to use"
+          },
+          {
+            "questionId": "uiux-q8",
+            "question": "Which color model is used for digital screens?",
+            "options": ["RGB", "CMYK", "Pantone", "HSL"],
+            "correctAnswer": "RGB"
+          },
+          {
+            "questionId": "uiux-q9",
+            "question": "What is the purpose of a style guide in UI design?",
+            "options": ["To maintain consistency in design", "To create wireframes", "To test usability", "To write code"],
+            "correctAnswer": "To maintain consistency in design"
+          },
+          {
+            "questionId": "uiux-q10",
+            "question": "Which tool is commonly used for UI/UX design?",
+            "options": ["Adobe XD", "Excel", "Word", "PowerPoint"],
+            "correctAnswer": "Adobe XD"
+          }
+        ]
+      }
+            
+]

@@ -1,0 +1,118 @@
+.add-quiz-page {
+    /* background-color: #f7f7f7; first-color */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .quiz-container {
+    background-color: #eeeeee; /* second-color */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .quiz-title {
+    text-align: center;
+    color: #393e46; /* third-color */
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .question-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #393e46; /* third-color */
+  }
+  
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #ffffff;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .nav-button {
+    background-color: #393e46; /* third-color */
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .nav-button:hover:not(:disabled) {
+    background-color: #2f343a;
+  }
+  
+  .submit-quiz-button {
+    background-color: #929aab; /* fourth-color */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-quiz-button:hover {
+    background-color: #7e8899;
+  }
+  
+  .success-message {
+    text-align: center;
+    padding: 30px;
+    color: #393e46; /* third-color */
+  }
+  
+  .success-message h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #28a745;
+  }
+  
+  .home-button {
+    background-color: #393e46; /* third-color */
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #2f343a;
+  }
+  

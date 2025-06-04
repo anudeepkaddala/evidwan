@@ -1,0 +1,146 @@
+[
+    {
+      "courseId": "C001",
+      "courseName": "Mastering Docker: From Beginner to Expert",
+      "assignments": [
+        {
+          "assignmentId": "a001",
+          "title": "Docker Basics",
+          "description": "Set up a Docker container for a simple web application.",
+          "dueDate": "2025-05-30"
+        }
+      ]
+    },
+    {
+      "courseId": "C002",
+      "courseName": "Mastering Next.js: Full Stack Development",
+      "assignments": [
+        {
+          "assignmentId": "a002",
+          "title": "Next.js Routing",
+          "description": "Create a multi-page application using Next.js routing.",
+          "dueDate": "2025-06-02"
+        }
+      ]
+    },
+    {
+      "courseId": "C003",
+      "courseName": "Master HTML: The Complete Guide",
+      "assignments": [
+        {
+          "assignmentId": "a003",
+          "title": "HTML Structure",
+          "description": "Create a basic HTML page with a header, footer, and a navigation menu.",
+          "dueDate": "2025-05-25"
+        }
+      ]
+    },
+    {
+      "courseId": "C004",
+      "courseName": "JavaScript Basics for Beginners",
+      "assignments": [
+        {
+          "assignmentId": "a004",
+          "title": "Variables and Functions",
+          "description": "Write a JavaScript program to calculate the sum of two numbers using a function.",
+          "dueDate": "2025-05-28"
+        }
+      ]
+    },
+    {
+      "courseId": "C005",
+      "courseName": "Advanced CSS Techniques",
+      "assignments": [
+        {
+          "assignmentId": "a005",
+          "title": "CSS Animations",
+          "description": "Create a webpage with a button that animates when hovered over.",
+          "dueDate": "2025-06-05"
+        }
+      ]
+    },
+    {
+      "courseId": "C006",
+      "courseName": "React Native for Mobile Development",
+      "assignments": [
+        {
+          "assignmentId": "a006",
+          "title": "React Native Components",
+          "description": "Build a React Native app with a custom component for displaying user profiles.",
+          "dueDate": "2025-06-10"
+        }
+      ]
+    },
+    {
+      "courseId": "C007",
+      "courseName": "Python for Data Science",
+      "assignments": [
+        {
+          "assignmentId": "a007",
+          "title": "Data Analysis with Pandas",
+          "description": "Analyze a dataset using Pandas and create a summary report.",
+          "dueDate": "2025-06-15"
+        }
+      ]
+    },
+    {
+      "courseId": "C008",
+      "courseName": "Machine Learning with TensorFlow",
+      "assignments": [
+        {
+          "assignmentId": "a008",
+          "title": "Linear Regression Model",
+          "description": "Build a linear regression model using TensorFlow and evaluate its performance.",
+          "dueDate": "2025-06-20"
+        }
+      ]
+    },
+    {
+      "courseId": "C009",
+      "courseName": "Introduction to Cybersecurity",
+      "assignments": [
+        {
+          "assignmentId": "a009",
+          "title": "Cybersecurity Basics",
+          "description": "Write a report on common cybersecurity threats and how to mitigate them.",
+          "dueDate": "2025-06-25"
+        }
+      ]
+    },
+    {
+      "courseId": "C010",
+      "courseName": "Full Stack Development with MERN",
+      "assignments": [
+        {
+          "assignmentId": "a010",
+          "title": "MERN Stack Application",
+          "description": "Develop a simple CRUD application using the MERN stack.",
+          "dueDate": "2025-06-30"
+        }
+      ]
+    },
+    {
+      "courseId": "C011",
+      "courseName": "Building RESTful APIs with Node.js",
+      "assignments": [
+        {
+          "assignmentId": "a011",
+          "title": "RESTful API Development",
+          "description": "Create a RESTful API for managing a library system.",
+          "dueDate": "2025-07-05"
+        }
+      ]
+    },
+    {
+      "courseId": "C012",
+      "courseName": "UI/UX Design Fundamentals",
+      "assignments": [
+        {
+          "assignmentId": "a012",
+          "title": "Wireframe Design",
+          "description": "Design a wireframe for a mobile application using a UI/UX tool of your choice.",
+          "dueDate": "2025-07-10"
+        }
+      ]
+    }
+  ]

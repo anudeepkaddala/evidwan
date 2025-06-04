@@ -1,0 +1,54 @@
+.first-color {
+    background-color: #f7f7f7;
+  }
+  
+  .second-color {
+    background-color: #eeeeee;
+  }
+  
+  .third-color {
+    background-color: #393e46;
+  }
+  
+  .fourth-color {
+    background-color: #929aab;
+  }
+  
+  .dashboard-container {
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  .dashboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    color: #393e46;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .progress-container {
+    position: relative;
+    background-color: #dcdcdc;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar-inner {
+    background-color: #393e46;
+    height: 100%;
+  }
+  
+  .progress-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #393e46;
+  }
+  
