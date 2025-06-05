@@ -36,12 +36,15 @@ const AuthForm = () => {
 
   const handleSignup = async () => {
     if (!email || !username || !password || !confirmPassword || !role || !otp) {
+      setSuccess("");
       return setError("All fields are required.");
     }
     if (!validateEmail(email)) {
+      setSuccess("");
       return setError("Invalid email format.");
     }
     if (password !== confirmPassword) {
+      setSuccess("");
       return setError("Passwords do not match.");
     }
   
@@ -61,17 +64,21 @@ const AuthForm = () => {
         setOtp("");
         setRole("Student");
         setIsLogin(true);
+        setError("");
       } else {
+        setSuccess("");
         setError(data.error);
       }
     } catch (error) {
+      setSuccess("");
       console.error("Error during signup:", error);
-      setError("Server error.");
+      setError("Error during signup.");
     }
   };
 
   const handleSendSignupOtp = async () => {
     if (!email) {
+      setSuccess("");
       return setError("Email is required.");
     }
     try {
@@ -82,13 +89,16 @@ const AuthForm = () => {
       });
       const data = await response.json();
       if (response.status === 200) {
+        setError("");
         setSuccess(data.message);
       } else {
+        setSuccess("");
         setError(data.error);
       }
     } catch (error) {
       console.error("Error during sending signup OTP:", error);
-      setError("Server error.");
+      setSuccess("");
+      setError("Error during sending signup OTP.");
     }
   };
 
@@ -110,7 +120,7 @@ const AuthForm = () => {
       }
     } catch (error) {
       console.error("Error during sending forgot password OTP:", error);
-      setError("Server error.");
+      setError("Error during sending forgot password OTP.");
     }
   };
 
@@ -133,15 +143,17 @@ const AuthForm = () => {
       }
     } catch (error) {
       console.error("Error during login:", error);
-      setError("Server error.");
+      setError("Error during login.");
     }
   };
 
   const handleResetPassword = async () => {
     if (!email || !otp || !password || !confirmPassword) {
+      setSuccess("");
       return setError("Email, OTP, new password, and confirm password are required.");
     }
     if (password !== confirmPassword) {
+      setSuccess("");
       return setError("Passwords do not match.");
     }
     try {
@@ -152,14 +164,17 @@ const AuthForm = () => {
       });
       const data = await response.json();
       if (response.status === 200) {
+        setError("");
         setSuccess(data.message);
         setIsForgotPassword(false);
       } else {
+        setSuccess("");
         setError(data.error);
       }
     } catch (error) {
+      setSuccess("");
       console.error("Error during reset password:", error);
-      setError("Server error.");
+      setError("Error during reset password.");
     }
   };
 
