@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
   role: { type: String },
   resetOtp: { type: Number }, // Add this field
   otpExpires: { type: Date }, // Add this field
-  singupOtp: { type: Number }, // Add this field
+  signupOtp: { type: Number }, // Add this field
 });
 
 module.exports = mongoose.model("User", userSchema);
